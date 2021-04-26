@@ -27,6 +27,7 @@
 
        WORKING-STORAGE SECTION.
 
+           05 DATA-EFGH PIC X(10) VALUE IS 99.
            77 FILE-STATUS PIC XX.
            77 EOF PIC X.
              88 EOF-T value "Y".
