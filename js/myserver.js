@@ -18,3 +18,9 @@ app.post("/api/world", (req, res) => {
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
+
+app.post("/api/world", (req, res) => {
+  console.log(req.body);
+  res.send("You sent:" + req.body.post);
+});
+
