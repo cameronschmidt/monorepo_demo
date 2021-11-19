@@ -11,11 +11,10 @@ app.get("/api/hello", (req, res) => {
   res.send({ express: "Hello From Express" });
 });
 
-/*
+// TODO: fix this code
 app.post("/api/world", (req, res) => {
   console.log(req.body);
   res.send("You sent:" + req.body.post);
 });
-*/
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
